@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AskBuddy
+
+**AskBuddy** is your 24/7 personal assistant, always ready to provide precise answers, advice, and friendly conversation. Built using Next.js, this AI chatbot leverages the power of OpenAI to enhance your experience.
+
+## Features
+
+- **24/7 Availability**: Access AskBuddy anytime for assistance.
+- **Precise Answers**: Get accurate responses to your queries.
+- **Friendly Conversation**: Engage in natural and friendly dialogue.
 
 ## Getting Started
 
-First, run the development server:
+To get started with AskBuddy, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js (v14 or later)
+- npm (Node Package Manager)
+
+### Installation
+
+1. Setup the repository:
+
+   ```bash
+   git clone https://github.com/rajat-03/AskBuddy.git
+   cd askbuddy
+   npm install
+   ```
+2. Environment Variables
+
+Before running the application, you need to set up your environment variables. Create a .env.local file in the root directory and add the following:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_MODEL=your_openai_model
+```
+
+3. Running the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your browser and visit http://localhost:3000 to interact with AskBuddy.
